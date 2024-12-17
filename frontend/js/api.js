@@ -1,5 +1,5 @@
 // js/api.js
-const API_URL = "https://sua-api-aqui.com"; // Substitua pela URL do seu backend
+const API_URL = "https://wine-catalog-wle0.onrender.com"; // Substitua pela URL do seu backend
 
 async function getWines() {
   const res = await fetch(`${API_URL}/wines`);
